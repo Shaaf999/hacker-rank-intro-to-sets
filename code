@@ -1,5 +1,6 @@
 def average (array):
   array=set(array)
+  #set takes only distinct characters (no repition)
   return sum(array)/len(array)
   
 if ___name__ == '__main__':
